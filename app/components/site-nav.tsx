@@ -24,9 +24,9 @@ export default function SiteNav() {
   };
 
   return (
-    <div className="h-[10vh] blog-name">
+    <div className="blog-name">
       <h1>random blogs 📚</h1>
-      <div className="group-by-2 flex items-center">
+      <div className="group-by-2">
         {categories.map((category) => (
           <Link
             key={category.href}
