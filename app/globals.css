@@ -10,7 +10,7 @@
   --color-foreground: var(--foreground);
   /* --font-sans: var(--font-dusha); */
   --font-mono: var(--font-geist-mono);
-  --text-tiny: 0.5rem
+  --text-tiny: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {

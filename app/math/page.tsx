@@ -20,14 +20,12 @@ const mathTopics = [
 
 export default function MathPage() {
   return (
-    <div className="flex w-full py-10">
-      <div className="flex-1"></div>
-      <div className="flex-1 space-y-4">
+    <div className="mx-auto w-full max-w-6xl px-4 py-6 md:px-6 md:py-10">
+      <div className="mx-auto w-full space-y-4 md:w-2/3">
         {mathTopics.map((topic) => (
           <Topics key={topic.href} first={topic.first} second={topic.second} href={topic.href} />
         ))}
       </div>
-      <div className="flex-1"></div>
     </div>
   );
 }

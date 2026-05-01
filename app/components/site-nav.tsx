@@ -31,7 +31,7 @@ export default function SiteNav() {
           <Link
             key={category.href}
             href={category.href}
-            className={`menu-link ${isActive(category.href) ? "font-bold underline underline-offset-8" : "opacity-50 hover:opacity-100"}`}
+            className={`menu-link ${isActive(category.href) ? "font-bold text-white opacity-100 underline underline-offset-8" : "text-white opacity-50 hover:opacity-100"}`}
           >
             {category.name}
           </Link>
